@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Sen', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.scrum{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    width: 90%;
+    height: 100%;
+    background-color: rgb(241, 239, 239);
+    border-radius: 5px;
+}
+.scrum *{
+    font: sans-serif;
+}
+
+.scrum-column{
+    flex:1
+}
+.scrum-column:not(:last-child){
+    margin-right: 30px;
+}
+.scrum-column-title{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: black;
+    font-family: 'Sen', sans-serif;
+    user-select: none;
+    font-weight: 550;
+}
+.scrum-item-input{
+    padding: 10px 15px;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 10px;
+    font-family: 'Sen', sans-serif;
+    border-color: #4600B1;
+}
+
+.scrum-dropzone{
+    height: 10px;
+    transition: background 0.15s, height 0.15s;
+}
+
+.scrum-dropzone-active{
+    height: 20px;
+    background-color: #4700b160;
+}
+
+.scrum-add-item{
+    background-color: #4600B1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    font-family: 'Sen', sans-serif;
+}
+.scrum-add-item:hover{
+    color: white;
+    background-color: #31007c;
+}
+
